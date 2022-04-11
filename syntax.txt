@@ -1,0 +1,6 @@
+git status
+git add . || git add -A   // adiciona todos os arquivos no repositório local
+git commit -m "comentario"
+git push origin main  // manda o repositorio local para a nuvem
+git config --global credential.helper cache // proximo login e token são salvos e executados automaticamente
+git config --global --unset credential.helper cache // login e token são manualizados
